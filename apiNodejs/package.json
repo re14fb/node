@@ -1,7 +1,7 @@
 {
   "name": "apinodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Api de cadastro de usuário e validação de login",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js"
