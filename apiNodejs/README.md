@@ -1,1 +1,1 @@
-# Api de cadastro de usuário e validação de login
+# Api cadastro de usuário e validação de login
