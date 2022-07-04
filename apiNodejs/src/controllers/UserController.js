@@ -127,10 +127,10 @@ const UserController = {
             }
 
             let novosDados = {
-                nome,
-                email,
+                nome: nome.toLowerCase(),
+                email: email.toLowerCase(),
                 senha: await bcrypt.hash(senha, 10),
-                nivel
+                nivel: nivel.toUpperCase()
             }
 
             await User.update(novosDados, {
