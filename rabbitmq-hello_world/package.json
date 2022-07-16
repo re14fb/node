@@ -1,0 +1,17 @@
+{
+  "name": "rabbitmq-hello_world",
+  "version": "1.0.0",
+  "description": "Test hello world with rabbitmq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Error: no test specified && exit 1"
+  },
+  "keywords": [
+    "rabbitmq"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.0"
+  }
+}
